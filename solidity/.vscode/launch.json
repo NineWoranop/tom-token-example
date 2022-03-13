@@ -13,6 +13,19 @@
             "files": [],
             "workingDirectory": "${workspaceFolder}/",
             "providerUrl": "http://127.0.0.1:7545"
+        },
+        {
+            "name": "truffle test",
+            "type": "node",
+            "request": "launch",
+            "program": "C:/Users/woranopc/AppData/Roaming/npm/node_modules/truffle/build/cli.bundled.js",
+            "args": [
+                "test"
+            ],
+            "cwd": "${workspaceRoot}",
+            "outFiles": [
+                "${workspaceRoot}/test/**/*"
+            ],
         }
     ]
 }
