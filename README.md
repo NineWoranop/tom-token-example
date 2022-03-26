@@ -69,10 +69,15 @@ OR
 
 ## Connect MetaMask with Ganache
 1. Open MetaMask on Chrome
-2. Add network with New RPC URL
+2. Click on Network
+3. Click "Add network" button
+4. Fill in Network Name
+my_ganache
+4. Fill in New RPC URL
 http://127.0.0.1:7545
 3. Chain ID
 1337
 4. Symbol
 ETH
 5. See this screen ![unit test](images/setup_network.png)
+6. Click "Save" button
