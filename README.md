@@ -25,12 +25,20 @@ https://github.com/trufflesuite/ganache-ui/releases/download/v2.5.4/Ganache-2.5.
 
 ## Deploy Smart Contract to Ganache
 1. Make sure you that Ganache is running.
-2. Open command prompt and go to solidity folder and initialize Truffle environment
+2. Open command prompt and go to solidity folder and initialize NPM environment
+
+```
+npm install
+OR
+01_download_dependencies.bat
+```
+
+2. Run command for compile smart contracts
 
 ```
 truffle compile
 OR
-01_initial.bat
+02_compile.bat
 ```
 
 3. Deploy smart contracts
@@ -38,10 +46,10 @@ OR
 ```
 truffle deploy --reset
 OR
-02_deploy.bat
+03_deploy.bat
 ```
 
-4. Test connect to Truffle and Press Ctrl+C for exit
+4. Test connect to Truffle (develop environment) and Press Ctrl+C for exit
 ```
 truffle develop
 ```
@@ -58,3 +66,13 @@ OR
 ![unit test](images/unit_test.png)
 4. Found new created contract on Ganache after run unit test
 ![new contract](images/new_contract.png)
+
+## Connect MetaMask with Ganache
+1. Open MetaMask on Chrome
+2. Add network with New RPC URL
+http://127.0.0.1:7545
+3. Chain ID
+1337
+4. Symbol
+ETH
+5. See this screen ![unit test](images/setup_network.png)
