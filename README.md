@@ -4,7 +4,8 @@ This is an example for token on Ethereum based on ECR20 interface
 ## Slides for Knowledge
 1. Blockchain and BitCoin -> https://docs.google.com/presentation/d/1YJm7qluKNDMUy_y7GEQftl6JwpEjFizGW1h3Y1HUY9M/edit?usp=sharing
 2. Ethereum and How to develop dApp -> https://docs.google.com/presentation/d/15Ab0C5xTfsyWQXTEJCmU_Z8Bvh7_dwHbXk7DapMFb1I/edit?usp=sharing
-3. Token Workshop -> https://docs.google.com/presentation/d/1k7pqwuTjeDoMXpVAbqG4KegLJG1yMD7JF2oMIrOGxhA/edit?usp=sharing
+3. Token Workshop (1) -> https://docs.google.com/presentation/d/1k7pqwuTjeDoMXpVAbqG4KegLJG1yMD7JF2oMIrOGxhA/edit?usp=sharing
+4. Token Workshop (2) -> https://docs.google.com/presentation/d/1EcZTNn-bZdiDE1zeOpmU_6Mv-hoGqv_KT6ibovjShSI/edit?usp=sharing
 
 ## Pre-Installation
 1. Install NodeJS v16.13.2
